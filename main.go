@@ -19,7 +19,7 @@ func NewMyStack(scope constructs.Construct, id string) cdktf.TerraformStack {
 	})
 	computeinstance.NewComputeInstance(stack, jsii.String("test-vm"), &computeinstance.ComputeInstanceConfig{
 		Name:                   jsii.String("test-vm"),
-		MachineType:            jsii.String("e2-micro"),
+		MachineType:            jsii.String("e2-medium"),
 		AllowStoppingForUpdate: jsii.Bool(true),
 		Zone:                   jsii.String("asia-northeast1-b"),
 		BootDisk: &computeinstance.ComputeInstanceBootDisk{

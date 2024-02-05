@@ -19,3 +19,9 @@ generated
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Infracost
+.Infracost
+
+# Pluralith
+pluralith
